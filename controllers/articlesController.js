@@ -8,7 +8,7 @@ module.exports = {
     request.get({
       url: "https://api.nytimes.com/svc/search/v2/articlesearch.json",
       qs: {
-        'api-key': "c9814012a7c746febfeada1fd4c42e7b",
+        'api-key': "",
         'q': req.params.query
       }, 
     },(err, response, body) => {
